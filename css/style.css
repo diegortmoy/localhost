@@ -1,0 +1,38 @@
+/* ----- ----- ----- ----- */
+    /* Estilos Generales */
+/* ----- ----- ----- ----- */
+
+body{
+    background-image: url('../img/starWars.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    color: #fff;
+    font-family: 'Helvetica';
+}
+
+a:hover
+      {
+    text-decoration:none;
+    color: rgb(99, 236, 152);
+} 
+
+.vertical-text {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 14px;
+    }
+
+footer{
+    position:fixed;
+    left:10px;
+    bottom:10px;
+    width:100%;
+}
+
